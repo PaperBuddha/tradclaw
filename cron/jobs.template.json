@@ -1,0 +1,83 @@
+[
+  {
+    "id": "morning-brief",
+    "enabled": false,
+    "schedule": "0 6 * * 1-5",
+    "timezone": "America/Los_Angeles",
+    "title": "Morning household brief",
+    "goal": "Summarize the day’s family logistics before the morning gets chaotic.",
+    "prompt": "Review the relevant family calendars, school inputs, and weather. Send a short morning brief with only actionable information: key events, pickup/dropoff changes, activity prep, helper schedule, school items due soon, and one optional age-appropriate fun fact if the household wants that. If nothing unusual is happening, keep it compact."
+  },
+  {
+    "id": "afternoon-pickup-check",
+    "enabled": false,
+    "schedule": "30 14 * * 1-5",
+    "timezone": "America/Los_Angeles",
+    "title": "Afternoon pickup check",
+    "goal": "Catch same-day logistics problems before pickup time.",
+    "prompt": "Check school messages, family calendar, and activity timing for anything affecting pickups or after-school logistics. Surface only same-day actionable items like location changes, gear needed, forms, snacks, uniforms, delays, or overlapping activities. If nothing changed, say nothing."
+  },
+  {
+    "id": "weekend-preview",
+    "enabled": false,
+    "schedule": "0 18 * * 5",
+    "timezone": "America/Los_Angeles",
+    "title": "Weekend activities preview",
+    "goal": "Reduce weekend scramble.",
+    "prompt": "Summarize Saturday and Sunday family activities, sports, classes, outings, and any prep needs. Highlight conflicts, travel timing, gear, snacks, uniforms, gifts, or anything that would be annoying to realize at the last minute. Keep it concise."
+  },
+  {
+    "id": "meal-plan-prompt",
+    "enabled": false,
+    "schedule": "0 16 * * 0",
+    "timezone": "America/Los_Angeles",
+    "title": "Weekly meal planning prompt",
+    "goal": "Help the household make a realistic meal plan and shopping list.",
+    "prompt": "Review the coming week’s calendar and suggest a practical meal plan. Favor easier meals on busy nights and reuse ingredients when possible. Update or draft the weekly meal plan and produce a grocery list from any obvious gaps."
+  },
+  {
+    "id": "school-deadline-sweep",
+    "enabled": false,
+    "schedule": "0 15 * * 1-4",
+    "timezone": "America/Los_Angeles",
+    "title": "School deadline sweep",
+    "goal": "Catch forms, fees, and school logistics before they become emergencies.",
+    "prompt": "Review school-related messages and notes. Surface actionable items like forms, signatures, fees, supply requests, field trips, theme days, performances, and schedule changes. Update school notes if useful. Avoid newsletter spam."
+  },
+  {
+    "id": "helper-payment-reminder",
+    "enabled": false,
+    "schedule": "0 9 * * 5",
+    "timezone": "America/Los_Angeles",
+    "title": "Helper payment reminder",
+    "goal": "Reduce missed or late household helper payments.",
+    "prompt": "Check the helper payments file and remind the household about anyone due for payment soon or now. Include the amount only if it is confidently stored. Avoid duplicate reminders if something is already marked paid."
+  },
+  {
+    "id": "home-maintenance-monthly",
+    "enabled": false,
+    "schedule": "0 10 1 * *",
+    "timezone": "America/Los_Angeles",
+    "title": "Monthly home maintenance review",
+    "goal": "Keep the house functional without overwhelming people.",
+    "prompt": "Review the home maintenance schedule and seasonal checklist. Surface 2 to 4 high-leverage tasks for this month, prioritizing safety, recurring replacements, supply resets, clutter hotspots, and seasonal transitions. Keep it realistic."
+  },
+  {
+    "id": "homework-review",
+    "enabled": false,
+    "schedule": "0 17 * * 0",
+    "timezone": "America/Los_Angeles",
+    "title": "Weekly homework and learning review",
+    "goal": "Turn homework logging into useful educational memory.",
+    "prompt": "Review the homework log and concepts-to-reinforce notes. Summarize what each child has been working on, where they seem confident, and any patterns that may need reinforcement. Keep the tone descriptive, not judgmental."
+  },
+  {
+    "id": "storytime-prompt",
+    "enabled": false,
+    "schedule": "0 19 * * 0,3",
+    "timezone": "America/Los_Angeles",
+    "title": "Storytime idea prompt",
+    "goal": "Offer custom stories as a family delight feature without overdoing it.",
+    "prompt": "If the household uses story mode, suggest a custom bedtime story idea based on current interests, recent activities, or seasonal themes. Keep it optional and charming, not spammy."
+  }
+]
