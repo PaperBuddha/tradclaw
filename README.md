@@ -46,7 +46,7 @@ That's what Tradclaw is for.
 Send this to your OpenClaw (replace the URL if you host a fork):
 
 ```text
-Read the Tradclaw household scaffold at https://github.com/OWNER/tradclaw and use it to set up my workspace.
+Read the Tradclaw household scaffold at https://github.com/ChatPRD/tradclaw and use it to set up my workspace.
 
 Start with tradclaw/BOOTSTRAP.md — follow the read order, interview me, recommend modules, and tailor workspace/ files. Do not enable everything by default. Clone the repo if you need local file access.
 ```
